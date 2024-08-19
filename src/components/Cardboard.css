@@ -5,10 +5,10 @@
   
   .cardboard {
     background-image: url('../images/cardboard.png');
-    background-size: 50% 100%;
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 10px;
     text-shadow: 0px 0px 10px black;
   }
   
@@ -22,7 +22,7 @@
   }
   
   .cardboard li::before {
-    content: counter(item) ". ";
+    content: counter(item) ".";
     display: inline-block;
     width: 1em;
     margin-left: -1em;
