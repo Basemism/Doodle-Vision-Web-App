@@ -1,11 +1,11 @@
 .cardboard-container {
-    width: 100%;
+    width: 650px;
     box-sizing: border-box;
   }
   
   .cardboard {
     background-image: url('../images/cardboard.png');
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     padding: 10px;
