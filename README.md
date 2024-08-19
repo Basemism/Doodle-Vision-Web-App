@@ -1,5 +1,5 @@
 # Doodle Vision
-Doodle Vision is a mini-project aimed to replicate Google's Quick, Draw Game. Project Consists of 2 parts training a model capable of classifying various doodles, and the web application . The web application allows users to draw a prompt, which is then sent to the deep learning model for prediction. The model returns the top 5 guesses, and the application displays whether the model correctly identified the drawing. 
+Doodle Vision is a mini-project aimed to replicate Google's Quick, Draw Game. Project Consists of 2 parts, training a model capable of classifying various doodles, and the web application . The web application allows users to draw a prompt, which is then sent to the deep learning model for prediction. The model returns the top 5 guesses, and the application displays whether the model correctly identified the drawing. 
 
 ## Available Scripts
 
