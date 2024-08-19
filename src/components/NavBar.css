@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14298F;
+    height: 70px;
+    padding: 10px 36px;  /* Removed vertical padding */
+    box-shadow: 0px 20px 20px rgb(0, 0, 0);
+}
+
+.logos {
+    display: flex;
+    gap: 15px;
+    align-items: center;  /* Added to vertically center logos */
+}
+
+.logo {
+    width: 50px; 
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+}
+
+.title {
+    color: #14298F;
+    -webkit-text-stroke: 5px rgb(255, 255, 255);
+    paint-order: stroke fill;
+    font-size: 2rem;
+    margin: 0;  /* Removed margin */
+    line-height: 70px;  /* Match the height of the navbar */
+    display: flex;
+    align-items: center;  /* Vertically center the text */
+}

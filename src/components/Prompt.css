@@ -1,0 +1,39 @@
+.prompt-container {
+    position: relative;
+    display: inline-block;
+  }  
+
+.prompt {
+    color: rgb(20, 44, 252);  
+    -webkit-text-stroke: 5px rgb(255, 255, 255);
+    paint-order: stroke fill;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .shuffle-button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(150%);
+
+    background-color: rgb(255, 218, 53);
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0px rgb(194, 116, 14);
+
+
+    border: none;
+    cursor: pointer;
+    font-size: 1em; 
+    color: rgb(20, 44, 252); 
+  }
+  
+  .shuffle-button:hover {
+    color: rgb(15, 30, 165);
+    background-color: rgb(219, 183, 20);
+  }
