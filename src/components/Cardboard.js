@@ -1,5 +1,5 @@
-// src/components/Cardboard.js
 import React from 'react';
+import './Cardboard.css'
 
 const Cardboard = ({ guesses, prompt }) => {
   const found = guesses.findIndex(guess => guess.className === prompt);
