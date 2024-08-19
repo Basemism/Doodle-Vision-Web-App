@@ -1,0 +1,29 @@
+.cardboard-container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .cardboard {
+    background-image: url('../images/cardboard.png');
+    background-size: 50% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-shadow: 0px 0px 10px black;
+  }
+  
+  .cardboard ol {
+    list-style-type: none;
+  }
+  
+  .cardboard li {
+    margin-bottom: 5px;
+    counter-increment: item;
+  }
+  
+  .cardboard li::before {
+    content: counter(item) ". ";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
