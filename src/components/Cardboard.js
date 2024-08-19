@@ -16,7 +16,7 @@ const Cardboard = ({ guesses, prompt }) => {
       </ul>
       <h3>
         {found !== -1 
-          ? `Model detected in ${found + 1} guess${ found == 0 ? '!' : 'es!'}` 
+          ? `Model detected in ${found + 1} guess${ found === 0 ? '!' : 'es!'}` 
           : `Model didn't understand your drawing`}
       </h3>
     </div>
