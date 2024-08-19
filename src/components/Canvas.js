@@ -25,8 +25,8 @@ const Canvas = ({onSubmit}) => {
       <ReactSketchCanvas
         ref={canvasRef}
         style={{ border: '1px solid #000' }}
-        width="400px"
-        height="400px"
+        width="500px"
+        height="500px"
         strokeWidth={4}
         strokeColor="black"
       />
